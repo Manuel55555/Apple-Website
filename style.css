@@ -136,9 +136,6 @@ video {
 	top: 0;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    nav {
-	    display: block; 
-  }
-}
+@media (preders-color-scheme: dark) {
+	Body {
+		background-color: rgb(55, 121, 86)

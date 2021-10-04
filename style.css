@@ -1,0 +1,137 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  font-size:5vh;
+  font-weight: 550; 
+  color: rgb(255, 255, 255);
+  background-color:rgba(0,0,0, .8);
+  padding-top: 2vh;
+  text-align:center;
+  border-radius: 10vh;
+  height: 10vh;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 3vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  
+}
+
+section {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 350;
+  font-size:1.1em;
+  color: rgb(51, 51, 51);
+  padding: 20px;
+  margin: 20px auto;
+  max-width:900px;
+ 
+}
+
+section.rainbow {
+  background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2FSteven%20Jobs.png?v=1632260329324);
+  background-size:contain;
+  background-repeat:repeat;
+  color: rgb(0, 0, 0);
+  font-weight: 380;
+  border-radius: 5vh;
+  
+}
+
+section.blue {
+  background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2Fblue%20gradient.jpg?v=1632319937645);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5vh;
+  color: rgb(0, 0, 0);
+  font-weight: 380;
+  
+}
+
+section.black {
+  background-color: rgb(0, 0, 2, .65);
+  border-radius: 5vh;
+  color: rgb(255, 255, 255);
+  font-weight: 380;
+}
+
+section.silver {
+  background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2Fsilver%20gradient.jpg?v=1632320483471);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5vh;
+  color: rgb(0, 0, 0);
+  font-weight: 380;
+}
+
+section.gradient {
+  background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2F2007%20gradient.jpg?v=1632321793091);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5vh;
+  color: rgb(0, 0, 0);
+  font-weight: 380;
+}
+
+
+section.grey {
+  background-color: rgb(214, 214, 214);
+  border-radius: 5vh;
+  color: rgb(0, 0, 0, .65);
+  font-weight: 380;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  margin: 20px auto;
+  color: rgb(0, 0, 0);
+  display:flex;
+  justify-content:space-evenly;
+  max-width:1000px;
+  background-color: rgb(0, 0, 0, .1);
+  border-radius: 5vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-shadow: 0 0 .75px #333, 0 0 .75px #333;
+
+}
+
+nav div { 
+  padding:5px;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;  
+}
+
+.sticky {
+  background-color: rgb(204, 204, 204, .9);	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}

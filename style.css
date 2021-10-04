@@ -144,3 +144,7 @@ video {
 	Body {
 		background-color: rgb(55, 121, 86)
   }}
+
+ul {
+    list-style-image: url('Apple_logo_black.svg.png');
+}

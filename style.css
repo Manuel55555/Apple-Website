@@ -115,6 +115,10 @@ a {
   color: black;
 }
 
+nav a {
+	display: block; 
+	
+}
 a:hover {
   text-shadow: 0 0 .75px #333, 0 0 .75px #333;
 

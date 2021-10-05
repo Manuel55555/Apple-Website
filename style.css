@@ -1,6 +1,4 @@
-/* a minimalist set of CSS resets */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
-/* default to border-box */
 html {
   font-size: 16px;
   box-sizing: border-box;

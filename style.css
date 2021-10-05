@@ -33,69 +33,122 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-section {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 350;
-  font-size:1.5em;
-  color: rgb(51, 51, 51);
-  padding: 20px;
-  margin: 20px auto;
-  max-width:900px;
- 
-}
 
 section.rainbow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: rgb(51, 51, 51);
   background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2FSteven%20Jobs.png?v=1632260329324);
   background-size:contain;
   background-repeat:repeat;
   color: rgb(0, 0, 0);
-  font-weight: 380;
+  font-weight: 400;
   border-radius: 5vh;
+  padding: 20px;
+  margin: 20px auto;
+  max-width:900px;
+  line-height: 1.6;
   
 }
 
 section.blue {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: rgb(51, 51, 51);
   background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2Fblue%20gradient.jpg?v=1632319937645);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5vh;
   color: rgb(0, 0, 0);
   font-weight: 380;
+  padding: 20px;
+  margin: 20px auto;
+  max-width:900px;
+  line-height: 1.6;
   
 }
 
 section.black {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: rgb(51, 51, 51);
   background-color: rgb(0, 0, 2, .65);
   border-radius: 5vh;
   color: rgb(255, 255, 255);
   font-weight: 380;
+  padding: 20px;
+  margin: 20px auto;
+  max-width:900px;
+  line-height: 1.6;
 }
 
 section.silver {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: rgb(51, 51, 51);
   background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2Fsilver%20gradient.jpg?v=1632320483471);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5vh;
   color: rgb(0, 0, 0);
   font-weight: 380;
+  padding: 20px;
+  margin: 20px auto;
+  max-width:900px;
+  line-height: 1.6;
 }
 
 section.gradient {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: rgb(51, 51, 51);
   background-image:linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url(https://cdn.glitch.com/c59ba6ce-51c1-42d8-8f6a-022bf43ae623%2F2007%20gradient.jpg?v=1632321793091);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5vh;
   color: rgb(0, 0, 0);
   font-weight: 380;
+  padding: 20px;
+  margin: 20px auto;
+  max-width:900px;
+  line-height: 1.6;
 }
 
 
 section.grey {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: rgb(51, 51, 51);
   background-color: rgb(214, 214, 214);
   border-radius: 5vh;
   color: rgb(0, 0, 0, .65);
-  font-weight: 380;
+  font-weight: 400;
+  padding: 20px;
+  margin: 20px auto;
+  max-width:900px;
+  line-height: 1.6;
 }
+
+.imagegallery {
+  margin:0;
+  padding:0;
+  width:100%;
+  
+}
+
+.imagegallery figure{
+  display:block;
+  width:30%;
+
+}
+
+.imagegallery img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 nav {
   font-family: 'Montserrat', sans-serif;
@@ -108,6 +161,10 @@ nav {
   max-width:1000px;
   background-color: rgb(0, 0, 0, .1);
   border-radius: 5vh;
+  padding: 20px;
+  margin: 20px ;
+  max-width:900px;
+  line-height: 1.6;
 }
 
 a {
@@ -144,25 +201,3 @@ video {
 	Body {
 		background-color: rgb(55, 121, 86)
    }}
-
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-
-ul {
-    list-style-image: url('Apple_logo_black.svg.png');
-}
